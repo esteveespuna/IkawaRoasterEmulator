@@ -154,7 +154,7 @@ class IkawaEmulatedRoaster():
                 # Works Ok
                 print("CMD MACH_PROP_GET_TYPE %d" % (self.MACH_PROP_GET_TYPE))
                 respType.resp_mach_prop_type.type_ = 3  # de v1 a v4
-                respType.resp_mach_prop_type.variant = 0  # PRO(0), NESPRESSO(1), BARE(2), HOME(3);
+                respType.resp_mach_prop_type.variant = 0  # PRO(0),HOME(3);
 
             if IkawaApp_decoded_message.cmd_type == self.MACH_PROP_GET_ID:
                 print("CMD MACH_PROP_GET_ID %d" % (self.MACH_PROP_GET_ID))
