@@ -1,0 +1,55 @@
+{
+    "schema": 1,
+    "id": "wJHauK/DSAZBxA86llA3RA==",
+    "name": "Exp6 RoR to TempBelow for Geisha",
+    "temp_points": [
+        {
+            "time": 0,
+            "temp": 500
+        },
+        {
+            "time": 176,
+            "temp": 1770
+        },
+        {
+            "time": 1040,
+            "temp": 2244
+        },
+        {
+            "time": 1806,
+            "temp": 2373
+        },
+        {
+            "time": 2061,
+            "temp": 2363
+        },
+        {
+            "time": 3562,
+            "temp": 2363
+        }
+    ],
+    "fan_points": [
+        {
+            "time": 0,
+            "power": 225
+        },
+        {
+            "time": 1079,
+            "power": 188
+        },
+        {
+            "time": 3562,
+            "power": 196
+        }
+    ],
+    "temp_sensor": 1,
+    "cooldown_fan": {
+        "time": 4412,
+        "power": 239
+    },
+    "coffee_name": "",
+    "user_id": "",
+    "coffee_id": "",
+    "coffee_web_url": "",
+    "profile_type": ""
+}
