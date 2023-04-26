@@ -1,0 +1,29 @@
+### IKAWA EMULATOR
+
+A python app that implements some of the protocol of IKAWA roasting system.
+
+This is very basic and does serve as a basis to understand the IKAWA bluetooth protocol. It is by no means production ready and should be used with caution.
+
+## Installation
+
+I used libprotoc 3.12.4, but 3.19 should be better
+protoc -I=./ --python_out=./ ./IkawaCmd.protc
+
+if you are having issues with the prtoc version try:
+
+export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
+
+## Running
+
+python pySimIkawa.py
+
+Connect with IkawaMonitor APP or with the official app to this emulated roaster.
+
+To start roasting create an empty file under the same running directory. This is equivalent to pressing the button on the IKAWA roaster.
+
+touch simulate
+
+The emulator will reply with a recorded session. In this repository you'll find an example : sim_session_exp3_feb26.csv
+
+Once the session has been completed the file is removed. The emulator runs faster than the actual IKAWA, see the code to change this behaviour.
+
